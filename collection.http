@@ -1,0 +1,18 @@
+POST http://localhost:4000/addbrands
+Content-Type: application/json
+
+{
+    "brandname":"Real Me"
+}
+
+###
+GET http://localhost:4000/getallbrands
+Content-Type: application/json
+
+###
+GET http://localhost:4000/getallbrands/64965e395a5474ba47d28bfa
+Content-Type: application/json
+
+###
+DELETE http://localhost:4000/deletebrand/64965e395a5474ba47d28bfa
+Content-Type: application/json
